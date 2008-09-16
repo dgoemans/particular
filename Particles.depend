@@ -1,0 +1,296 @@
+# depslib dependency file v1.0
+1221497118 source:/home/david/code/Particles/Particle.cpp
+	"Particle.h"
+
+1221497091 /home/david/code/Particles/Particle.h
+	<vmmlib/vmmlib.h>
+
+1220783919 /usr/include//vmmlib/vmmlib.h
+	<vmmlib/vector2.h>
+	<vmmlib/vector3.h>
+	<vmmlib/vector4.h>
+	<vmmlib/matrix3.h>
+	<vmmlib/matrix4.h>
+	<vmmlib/quaternion.h>
+	<vmmlib/frustum.h>
+	<vmmlib/frustumCuller.h>
+
+1220783919 /usr/include//vmmlib/vector2.h
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<algorithm>
+	<cassert>
+	<string>
+	<vector>
+	<sstream>
+	<vmmlib/stringUtils.h>
+
+1220783919 /usr/include//vmmlib/stringUtils.h
+	<string>
+	<vector>
+	<iostream>
+	<sstream>
+
+1220783919 /usr/include//vmmlib/vector3.h
+	<algorithm>
+	<cassert>
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<limits>
+	<string>
+	<vector>
+	<vmmlib/stringUtils.h>
+	<vmmlib/vector2.h>
+	<vmmlib/vector4.h>
+
+1220783919 /usr/include//vmmlib/vector4.h
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<algorithm>
+	<cassert>
+	<string>
+	<vector>
+	<vmmlib/matrix4.h>
+	<vmmlib/stringUtils.h>
+	<vmmlib/vector3.h>
+
+1220784742 /usr/include//vmmlib/matrix4.h
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<algorithm>
+	<cassert>
+	<string>
+	<vector>
+	<string.h>
+	<vmmlib/matrix3.h>
+	<vmmlib/vector3.h>
+	<vmmlib/vector4.h>
+	<vmmlib/stringUtils.h>
+
+1220783919 /usr/include//vmmlib/matrix3.h
+	<vmmlib/vector3.h>
+	<vmmlib/vector4.h>
+	<vmmlib/stringUtils.h>
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<algorithm>
+	<cassert>
+
+1220783919 /usr/include//vmmlib/quaternion.h
+	<algorithm>
+	<cassert>
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<limits>
+	<vmmlib/vector3.h>
+	<vmmlib/vector4.h>
+	<vmmlib/matrix3.h>
+
+1220783919 /usr/include//vmmlib/frustum.h
+	<vmmlib/matrix4.h>
+
+1220783919 /usr/include//vmmlib/frustumCuller.h
+	<vmmlib/vector4.h>
+	<vmmlib/visibility.h>
+	<vmmlib/matrix4.h>
+
+1220783919 /usr/include//vmmlib/visibility.h
+
+1221509758 source:/home/david/code/Particles/main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<stdlib.h>
+	<list>
+	<queue>
+	<stdlib.h>
+	<time.h>
+	"Settings.h"
+	"Particle.h"
+	"Wall.h"
+
+1212795150 /usr/include//GL/glut.h
+	"freeglut_std.h"
+
+1212795150 /usr/include//GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1212794216 /usr/include//GL/gl.h
+	"gl_mangle.h"
+	<stdlib.h>
+	<windows.h>
+	<GL/mesa_wgl.h>
+	<GL/glext.h>
+
+1212794216 /usr/include//GL/gl_mangle.h
+
+1212777410 /usr/include//stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1212777384 /usr/include//features.h
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1212777424 /usr/include//sys/cdefs.h
+	<features.h>
+	<bits/wordsize.h>
+
+1212777410 /usr/include//bits/wordsize.h
+
+1212777385 /usr/include//gnu/stubs.h
+	<bits/wordsize.h>
+	<gnu/stubs-32.h>
+	<gnu/stubs-64.h>
+
+1212777459 /usr/include//gnu/stubs-32.h
+
+1212777421 /usr/include//bits/waitflags.h
+
+1212777421 /usr/include//bits/waitstatus.h
+	<endian.h>
+
+1212777415 /usr/include//endian.h
+	<features.h>
+	<bits/endian.h>
+
+1212777415 /usr/include//bits/endian.h
+
+1212777389 /usr/include//xlocale.h
+
+1212777421 /usr/include//sys/types.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<stddef.h>
+	<endian.h>
+	<sys/select.h>
+	<sys/sysmacros.h>
+	<bits/pthreadtypes.h>
+
+1212777421 /usr/include//bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/typesizes.h>
+
+1212777421 /usr/include//bits/typesizes.h
+
+1212777419 /usr/include//time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1212777419 /usr/include//bits/time.h
+	<bits/types.h>
+	<bits/types.h>
+
+1212777424 /usr/include//sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/sigset.h>
+	<time.h>
+	<bits/time.h>
+
+1212777424 /usr/include//bits/select.h
+
+1212777409 /usr/include//bits/sigset.h
+
+1212777421 /usr/include//sys/sysmacros.h
+	<features.h>
+
+1212777421 /usr/include//bits/pthreadtypes.h
+
+1212777410 /usr/include//alloca.h
+	<features.h>
+	<stddef.h>
+
+1212777410 /usr/include//bits/stdlib.h
+
+1212777410 /usr/include//bits/stdlib-ldbl.h
+
+1212794216 /usr/include//GL/mesa_wgl.h
+	<GL/gl.h>
+	<windows.h>
+
+1212794216 /usr/include//GL/glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1212777410 /usr/include//inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1212777410 /usr/include//stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1212777416 /usr/include//bits/wchar.h
+
+1212794216 /usr/include//GL/glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1212794216 /usr/include//GL/glu_mangle.h
+
+1212777415 /usr/include//string.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+	<bits/string.h>
+	<bits/string2.h>
+	<bits/string3.h>
+
+1212777415 /usr/include//bits/string.h
+
+1212777415 /usr/include//bits/string2.h
+	<endian.h>
+	<bits/types.h>
+	<stdlib.h>
+
+1212777415 /usr/include//bits/string3.h
+
+1221503975 /home/david/code/Particles/Settings.h
+
+1221510046 source:/home/david/code/Particles/Wall.cpp
+	"Settings.h"
+	"Wall.h"
+
+1221507078 /home/david/code/Particles/Wall.h
+	<vmmlib/vmmlib.h>
+
